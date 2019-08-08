@@ -26,7 +26,7 @@ This is a Captcha gem for Rails Applications which generates captcha image by C 
 Put rucaptcha in your `Gemfile`:
 
 ```
-gem 'rucaptcha'
+gem 'rucaptcha-api'
 ```
 
 Create `config/initializers/rucaptcha.rb`

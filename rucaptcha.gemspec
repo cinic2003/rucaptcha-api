@@ -4,7 +4,7 @@ $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 require 'rucaptcha/version'
 
 Gem::Specification.new do |s|
-  s.name                  = 'rucaptcha'
+  s.name                  = 'rucaptcha-api'
   s.version               = RuCaptcha::VERSION
   s.authors               = 'Jason Lee'
   s.email                 = 'huacnlee@gmail.com'
@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
                             Dir.glob('app/**/*') +
                             Dir.glob('config/**/*') +
                             %w[README.md CHANGELOG.md]
-  s.homepage              = 'https://github.com/huacnlee/rucaptcha'
   s.require_paths         = ['lib']
   s.extensions            = %w[ext/rucaptcha/extconf.rb]
   s.summary               = 'This is a Captcha gem for Rails Applications. It drawing captcha image with C code so it no dependencies.'
